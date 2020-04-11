@@ -11,3 +11,7 @@ npm install
 ```
 npm start
 ```
+
+## Print
+
+Hit Ctrl+P in google chrome and print to pdf.
