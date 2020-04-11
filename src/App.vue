@@ -1,8 +1,20 @@
 <template>
   <div id="app">
-    Hello World!
-    <svg-github></svg-github>
-    <a href="github.com/mrahhal">github</a>
+    <div class="page cl">
+      <sheet-header></sheet-header>
+
+      <hr />
+
+      <sheet-section :title="'Cover Letter'">
+        Some
+      </sheet-section>
+    </div>
+
+    <div class="page cv">
+      <sheet-header></sheet-header>
+
+      <hr />
+    </div>
   </div>
 </template>
 
