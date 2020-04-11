@@ -1,0 +1,17 @@
+body {
+  --text-color: #2C3E50;
+  --text-color-secondary: rgba(--text-color, .8);
+  --accent: #9C27B0;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+}
+
+.app-icon {
+  fill: currentColor;
+  width: 15px;
+}

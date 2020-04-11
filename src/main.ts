@@ -1,5 +1,8 @@
-import Vue from 'vue'
-import App from './App.vue'
+import '@/components/globals';
+
+import Vue from 'vue';
+
+import App from './App.vue';
 
 Vue.config.productionTip = false
 
