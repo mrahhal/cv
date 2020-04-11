@@ -1,4 +1,5 @@
 import '@/components/globals';
+import '@/filters/globals';
 
 import Vue from 'vue';
 
