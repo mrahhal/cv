@@ -3,8 +3,8 @@
 }
 
 body {
-  --text-color: #2C3E50;
-  --text-color-secondary: rgba(--text-color, .8);
+  --text-color: ;
+  --text-color-secondary: #{rgba(#2C3E50, .8)};
   --accent: #2196f3;
   --border-radius: 2px;
 

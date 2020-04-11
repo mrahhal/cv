@@ -5,9 +5,7 @@
 
       <hr />
 
-      <sheet-section :title="'Cover Letter'">
-        Some
-      </sheet-section>
+      <cl-section></cl-section>
     </div>
 
     <div class="page cv">

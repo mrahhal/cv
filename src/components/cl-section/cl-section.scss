@@ -1,0 +1,33 @@
+.cl-section {
+  display: flex;
+
+  > * + * {
+    margin-left: 1cm;
+  }
+}
+
+.cl-section-left {
+  width: 4cm;
+
+  > * {
+    > *:nth-child(1) {
+      color: var(--text-color-secondary);
+    }
+
+    > *:nth-child(2) {
+
+    }
+
+    > * + * {
+      margin-top: var(--spacer-sm-1);
+    }
+  }
+
+  > * + * {
+    margin-top: 1cm;
+  }
+}
+
+.cl-section-right {
+
+}

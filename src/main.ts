@@ -11,6 +11,7 @@ Vue.config.productionTip = false;
 Vue.use(VueShowdown, {
   options: {
     emoji: true,
+    simpleLineBreaks: true,
   },
 });
 
