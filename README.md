@@ -1,6 +1,6 @@
 # cv
 
-My CV template written in vue.js.
+CV built with vue.js and css.
 
 ## Project setup
 ```
