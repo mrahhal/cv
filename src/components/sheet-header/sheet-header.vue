@@ -11,17 +11,26 @@
     <div class="sheet-header-right">
       <div>
         <svg-email></svg-email>
-        <span>{{'email' | config}}</span>
+        <div>
+          <a target="_blank" :href="'mailto://' + $options.filters.config('email')">{{'email' | config}}</a>
+        </div>
       </div>
 
       <div>
         <svg-globe></svg-globe>
-        <span>{{'website' | config}}</span>
+        <div>
+          <a target="_blank" :href="'website' | config">{{'website' | config}}</a>
+        </div>
       </div>
 
       <div>
         <svg-github></svg-github>
-        <span>https://github.com/{{'githubUsername' | config}}</span>
+        <div>
+          <a
+            target="_blank"
+            :href="'https://github.com/' + $options.filters.config('githubUsername')"
+          >@{{'githubUsername' | config}}</a>
+        </div>
       </div>
     </div>
   </div>

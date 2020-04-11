@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  --text-color: ;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --text-color: #2C3E50;
   --text-color-secondary: #{rgba(#2C3E50, .8)};
   --accent: #2196f3;
+  --link: #2196f3;
   --border-radius: 2px;
 
   --spacer-main: 1.2cm;
@@ -78,6 +85,11 @@ hr {
   background: var(--accent);
   border-radius: var(--border-radius);
   margin: var(--spacer-1) 0;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
 }
 
 @media print {
