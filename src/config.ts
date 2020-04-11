@@ -5,5 +5,5 @@ export const config = {
   website: 'http://mrahhal.net',
   githubUsername: 'mrahhal',
   to: 'MRH',
-  position: 'Software Engineer on the .NET team'
+  position: 'Software Engineer on the .NET team',
 };
