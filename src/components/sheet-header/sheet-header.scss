@@ -6,7 +6,10 @@
     width: 3cm;
     height: 3cm;
     border-radius: 50%;
-    filter: grayscale(1);
+
+    &.grayscale {
+      filter: grayscale(1);
+    }
   }
 }
 
