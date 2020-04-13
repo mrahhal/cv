@@ -1,7 +1,7 @@
-import cl from '@/content/cover-letter.md';
+import content from '@/content/cover-letter.md';
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class ContentCoverLetter extends Vue {
-  content = cl;
+  content = content;
 }
