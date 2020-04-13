@@ -1,0 +1,1 @@
+Software Engineer and Architect, Microsoft Certified Professional, DotNet Foundation Member. Author of many open source projects. My hobbies include open source, piano, reading novels, and learning languages.
