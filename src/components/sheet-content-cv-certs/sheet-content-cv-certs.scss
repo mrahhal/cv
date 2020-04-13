@@ -1,0 +1,27 @@
+.sheet-content-cv-certs {
+  > * + * {
+    margin-top: var(--spacer-sm-2);
+  }
+}
+
+.sheet-content-cv-certs-item {
+  display: flex;
+
+  > * + * {
+    margin-left: var(--spacer-sm-2);
+  }
+}
+
+.sheet-content-cv-certs-item-left {
+  width: 3cm;
+  flex-shrink: 0;
+}
+
+.sheet-content-cv-certs-item-right {
+  flex: 1;
+}
+
+.sheet-content-cv-certs-item-year {
+  font-size: var(--font-size-sm);
+  color: var(--text-color-secondary);
+}
