@@ -1,6 +1,6 @@
+import { config } from '@/config';
 import content from '@/content/oss-projects.json';
 import { Component, Vue } from 'vue-property-decorator';
-import { config } from '@/config';
 
 interface Project {
   id: number;
