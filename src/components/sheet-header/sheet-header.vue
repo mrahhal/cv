@@ -1,7 +1,7 @@
 <template>
   <div class="sheet-header">
     <div class="sheet-header-left">
-      <img src="@/assets/pic.jpg" />
+      <img src="@/assets/pic.png" />
       <div class="sheet-header-name-title">
         <div class="sheet-header-name">{{'name' | config}}</div>
         <div class="sheet-header-title">{{'title' | config}}</div>
