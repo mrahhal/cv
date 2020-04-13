@@ -24,6 +24,7 @@
     "no-empty-interface": false,
     "no-namespace": [true, "allow-declarations"],
     "no-var-requires": false,
+    "no-any": false,
     "object-literal-sort-keys": false,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "quotemark": [true, "single", "jsx-double"],
