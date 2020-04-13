@@ -13,7 +13,7 @@ interface Work {
 export default class SheetContentCv extends Vue {
   content: string = content;
   works: Work[] = [];
-  private _counter = 1;
+  private counter = 1;
 
   created() {
     const c = this.content;
@@ -34,7 +34,7 @@ export default class SheetContentCv extends Vue {
     str = str.substr(1);
 
     return {
-      id: this._counter++,
+      id: this.counter++,
       place,
       year,
       title,
