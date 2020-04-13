@@ -37,6 +37,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
+
+  display: flex;
 }
 
 .app-icon {
@@ -96,6 +98,10 @@ a {
   @page {
     size: A4;
     margin: 0;
+  }
+
+  #app {
+    display: unset;
   }
 
   body {
