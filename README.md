@@ -23,6 +23,10 @@ Configurable things are all put under [src/content](src/content):
 - [work.md](src/content/work.md): Past and current work experience
 - [certs.md](src/content/certs.md): Certifications and memberships you've attained
 
+Your picture is at [src/assets/pic.png](src/assets/pic.png).
+
+> Tip: You can make this grayscale by setting `grayscalePicture` to `true` in [config.json](src/content/config.json).
+
 ## Run
 ```
 $ npm install
