@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="page cl">
+    <div class="page">
       <sheet-header></sheet-header>
 
       <hr />
@@ -8,10 +8,12 @@
       <sheet-content-cl></sheet-content-cl>
     </div>
 
-    <div class="page cv">
+    <div class="page">
       <sheet-header></sheet-header>
 
       <hr />
+
+      <sheet-content-cv></sheet-content-cv>
     </div>
   </div>
 </template>

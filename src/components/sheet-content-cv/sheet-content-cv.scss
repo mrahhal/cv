@@ -1,0 +1,16 @@
+.sheet-content-cv {
+  display: flex;
+
+  > * + * {
+    margin-left: 1cm;
+  }
+}
+
+.sheet-content-cv-left {
+  flex: 1;
+}
+
+.sheet-content-cv-right {
+  width: 4cm;
+  flex-shrink: 0;
+}
