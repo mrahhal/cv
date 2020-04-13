@@ -8,7 +8,7 @@ interface Cert {
 }
 
 @Component
-export default class SheetContentCv extends Vue {
+export default class SheetContentCerts extends Vue {
   content: string = content;
   certs: Cert[] = [];
   private counter = 1;
