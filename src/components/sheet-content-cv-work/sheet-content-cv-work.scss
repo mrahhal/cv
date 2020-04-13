@@ -1,0 +1,39 @@
+.sheet-content-cv-work {
+  > * + * {
+    margin-top: var(--spacer-sm-2);
+  }
+}
+
+.sheet-content-cv-work-item {
+  display: flex;
+
+  > * + * {
+    margin-left: var(--spacer-sm-3);
+  }
+}
+
+.sheet-content-cv-work-item-left {
+  width: 4cm;
+  flex-shrink: 0;
+}
+
+.sheet-content-cv-work-item-right {
+  flex: 1;
+}
+
+.sheet-content-cv-work-item-title {
+  font-weight: bold;
+}
+
+.sheet-content-cv-work-item-place {
+  font-size: var(--font-size-sm);
+}
+
+.sheet-content-cv-work-item-year {
+  font-size: var(--font-size-xs);
+  color: var(--text-color-secondary);
+}
+
+.sheet-content-cv-work-item-content {
+  font-size: var(--font-size-sm);
+}

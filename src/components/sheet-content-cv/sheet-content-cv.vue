@@ -1,8 +1,8 @@
 <template>
   <div class="sheet-content-cv">
     <div class="sheet-content-cv-left">
-      <!-- <sheet-content-cv-work></sheet-content-cv-work>
-      <sheet-content-cv-certs></sheet-content-cv-certs> -->
+      <sheet-content-cv-work></sheet-content-cv-work>
+      <!-- <sheet-content-cv-certs></sheet-content-cv-certs> -->
     </div>
 
     <div class="sheet-content-cv-right">
