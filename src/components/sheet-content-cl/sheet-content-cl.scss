@@ -1,4 +1,4 @@
-.cl-section {
+.sheet-content-cl {
   display: flex;
 
   > * + * {
@@ -6,7 +6,7 @@
   }
 }
 
-.cl-section-left {
+.sheet-content-cl-left {
   width: 4cm;
   flex-shrink: 0;
 
