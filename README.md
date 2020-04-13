@@ -14,7 +14,7 @@ A CV built as a web app and prints perfectly on A4 papers.
 
 ## Configuration
 
-Configurable things are all put under [src/content](src/content).
+Configurable things are all put under [src/content](src/content):
 
 - [config.json](src/content/config.json): Contains quick data and some configuration options
 - [oss-projects.json](src/content/oss-projects.json): Contains open source projects you want to display
@@ -23,15 +23,16 @@ Configurable things are all put under [src/content](src/content).
 - [work.md](src/content/work.md): Past and current work experience
 - [certs.md](src/content/certs.md): Certifications and memberships you've attained
 
-## Project setup
-```
-npm install
-```
-
 ## Run
 ```
-npm start
+$ npm install
 ```
+
+```
+$ npm start
+```
+
+Then open http://localhost:8080.
 
 ## Print
 
