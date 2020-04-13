@@ -8,14 +8,11 @@
 
 .cl-section-left {
   width: 4cm;
+  flex-shrink: 0;
 
   > * {
     > *:nth-child(1) {
       color: var(--text-color-secondary);
-    }
-
-    > *:nth-child(2) {
-
     }
 
     > * + * {
