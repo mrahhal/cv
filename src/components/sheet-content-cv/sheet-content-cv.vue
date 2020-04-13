@@ -7,7 +7,7 @@
 
     <div class="sheet-content-cv-right">
       <sheet-content-cv-profile></sheet-content-cv-profile>
-      <!-- <sheet-content-cv-ossw></sheet-content-cv-ossw> -->
+      <sheet-content-cv-ossw></sheet-content-cv-ossw>
     </div>
   </div>
 </template>

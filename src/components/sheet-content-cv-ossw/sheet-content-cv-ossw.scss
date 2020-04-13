@@ -1,0 +1,31 @@
+.sheet-content-cv-ossw {
+  padding-top: var(--spacer-sm-3);
+
+  > * + * {
+    margin-top: var(--spacer-sm-3);
+  }
+}
+
+.sheet-content-cv-ossw-item {
+  > * + * {
+    margin-top: var(--spacer-sm-2);
+  }
+}
+
+.sheet-content-cv-ossw-item-header {
+  display: flex;
+  align-items: center;
+
+  > * + * {
+    margin-left: var(--spacer-sm-2);
+  }
+}
+
+.sheet-content-cv-ossw-item-description {
+  color: var(--text-color-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.sheet-content-cv-ossw-more {
+  font-size: var(--font-size-xs);
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "css-theming",
+    "link": "https://github.com/mrahhal/css-theming",
+    "description": "A platform for CSS theming."
+  },
+  {
+    "title": "niai",
+    "link": "https://github.com/mrahhal/niai",
+    "description": "Lookup similar Kanjis, Homonyms, Synonyms!"
+  },
+  {
+    "title": "CSharpLox",
+    "link": "https://github.com/mrahhal/CSharpLox",
+    "description": "A cross-platform compiler/interpreter .NET Standard implementation of the Lox language."
+  },
+  {
+    "title": "MR.AspNetCore.Jobs",
+    "link": "http://github.com/mrahhal/MR.AspNetCore.Jobs",
+    "description": "A background processing library for Asp.Net Core."
+  },
+  {
+    "title": "MR.AspNetCore.NestedRouting",
+    "link": "https://github.com/mrahhal/MR.AspNetCore.NestedRouting",
+    "description": "Nested routing for Asp.Net Core."
+  },
+  {
+    "title": "MR.Augmenter",
+    "link": "https://github.com/mrahhal/MR.Augmenter",
+    "description": "Take control of the data your API returns."
+  },
+  {
+    "title": "MR.AttributeDI",
+    "link": "https://github.com/mrahhal/MR.AttributeDI",
+    "description": "Provides attribute based configuration of dependency injection services."
+  },
+  {
+    "title": "MR.AspNetCore.MvcPack",
+    "link": "https://github.com/mrahhal/MR.AspNetCore.MvcPack",
+    "description": "A better way for writing controller action filters, inspired by rails."
+  },
+  {
+    "title": "Migrator.EF6",
+    "link": "http://github.com/mrahhal/Migrator.EF6",
+    "description": ".NET Core CLI tool to enable EF6 migrations in an Asp.Net Core app."
+  }
+]
