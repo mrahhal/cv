@@ -11,6 +11,13 @@
 }
 
 .sheet-content-cv-right {
-  width: 4cm;
+  width: 6cm;
   flex-shrink: 0;
+}
+
+.sheet-content-cv-left,
+.sheet-content-cv-right {
+  > * + * {
+    margin-top: var(--spacer-sm-2);
+  }
 }
