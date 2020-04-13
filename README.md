@@ -40,4 +40,4 @@ Then open http://localhost:8080.
 
 ## Print
 
-Hit Ctrl+P in google chrome and print to pdf.
+Hit Ctrl+P in google chrome and print to pdf or a printer.
