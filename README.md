@@ -29,11 +29,11 @@ Your picture is at [src/assets/pic.png](src/assets/pic.png).
 
 ## Run
 ```
-$ npm install
+npm install
 ```
 
 ```
-$ npm start
+npm start
 ```
 
 Then open http://localhost:8080.
