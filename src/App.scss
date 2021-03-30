@@ -48,6 +48,7 @@ body {
 }
 
 .page {
+  flex-shrink: 0;
   width: 21cm;
   height: 29.7cm;
   padding: calc(var(--spacer-lead) + var(--spacer-1)) var(--spacer-main);
